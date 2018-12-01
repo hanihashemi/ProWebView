@@ -18,7 +18,7 @@ class _WebViewExample extends State<WebViewExample> {
   static final initialUrl = 'https://hanihashemi.com/';
   WebViewController _webController;
   TextEditingController _addressBarController =
-  TextEditingController(text: initialUrl);
+      TextEditingController(text: initialUrl);
 
   @override
   Widget build(BuildContext context) {
